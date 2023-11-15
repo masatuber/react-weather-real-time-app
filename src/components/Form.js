@@ -8,4 +8,5 @@ const Form = ({ city, setCity, getWeather }) => {
     );
 };
 
+
 export default Form;

@@ -8,9 +8,9 @@ html {
 body {
     font-family: 'Raleway','Noto Sans JP', sans-serif;
     font-weight: 400;
-    font-size: 1.6rem;
+    font-size: 3rem;
     font-display: swap;
-    color: #333;
+    color: #88da45;
     margin: 0;
     padding: 0;
 }
@@ -31,51 +31,51 @@ body {
     text-align: center;
     padding: 40px 20px;
     border-radius: 15px;
-    backdrop-filter: blur(20px);
-    box-shadow: 4px 4px 13px 5px rgba(0,0,0,0.25);
+    backdrop-filter: blur(30px);
+    box-shadow: 10px 10px 20px 30px rgba(2, 61, 87, 0.488);
 }
 @media only screen and (max-width: 700px) {
     .container{
-        width: 80vw;
+        width: 60vw;
     }
 }
 
 /* Title.js */
 h1 {
-    font-weight: 400;
-    margin: 0px 0 50px;
+    font-weight: 500;
+    margin: 0px 0 40px;
 }
 
 /* Form.js */
 input[type="text"] {
     background-color: transparent;
     border: 0;
-    border-bottom: solid 1px #f15186;
+    border-bottom: solid 2px #f15186;
     width: 40%;
-    padding-bottom: 4px;
+    padding-bottom: 30px;
     color: #fff !important;
     font-weight: lighter;
-    letter-spacing: 2px;
-    margin-bottom: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 30x;
     margin-right: 20px;
     font-size: 20px;
 }
 
 button {
-    width: 40%;
-    border: 0;
-    padding: 8px 20px;
+    width: 50%;
+    border: 1;
+    padding: 15px 15px;
     margin: 0 2px;
-    border-radius: 2px;
+    border-radius: 10px;
     letter-spacing: 1px;
     font-size: 1.5rem;
     cursor: pointer;
-    background-color: #f15186;
+    background-color: #8951f1c0;
     color: #fff;
 }
 
 button:hover {
-    opacity: 0.9
+    opacity: 0.7
 }
 
 *:focus {
@@ -99,7 +99,7 @@ button:hover {
 
 .results-temp > span {
     font-size: 3rem;
-    color: #333;
+    color: #813838;
 }
 
 .results-condition {
@@ -123,4 +123,11 @@ button:hover {
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+}
+
+/* Clock.js */
+.time {
+    height: 150px;
+    font-size: 30px;
+    font-family: 'Noto Sans JP'
 }
